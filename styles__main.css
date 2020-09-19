@@ -1,5 +1,5 @@
 html ,body{
-    font-weight: bolder;
+    font-weight: 10px;
     font-family: 'Raleway', sans-serif;
     height: 100%;
     overflow: hidden;
@@ -27,7 +27,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .nav{
-    text-align: right;
+    display: flex;
+    align-items: right;
     margin-top: 20px;
 }
 
@@ -41,12 +42,26 @@ h1,h2,h3,h4,h5,h6,p{
     text-decoration: none;
 }
 .nav__inner:hover{
-    color: cornflowerblue;
-    border-color: cornflowerblue;
+    color: #e9d2a7;
+    border-color: #e9d2a7;
     transition: .5s;
 }
 
-.logo{
-    background-image: url("photos/logo.png");
+.header{
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
 }
 
+.logo{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 20px 30px;
+    background: #F35B66;
+    color: #fff;
+    margin: 50px 0 0 50px;
+    transition: all .2s;
+}

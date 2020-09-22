@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6,p{
 .header{
     width: 100%;
     height: 100px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid goldenrod;
 }
 
 .nav{
@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: uppercase;
     color: black;
     border-bottom: 2px solid transparent;
-    border-radius: 30px;
 }
 
  ul{
@@ -48,19 +47,34 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .nav__inner:hover{
-    color: #6f0000;
-    border-color: #6f0000;
+    color: goldenrod;
+    border-color: goldenrod;
     transition: 1s;
 }
 
-.vk{
-    background-image: url(D:\IT\KseniaProject-1\photos\vk.png);
-}
-
-.inst{
-    background-image: url(D:\IT\KseniaProject-1\photos\instagram.png);
+.nav__contacts{
+    padding: 10px 20px;
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 .container{
-    
+    margin: 0;
+}
+
+.photos{
+    padding: 40px;
+}
+
+.photos__inner{
+    align-content: center;
+    height: 370px;
+    flex-direction: column;
+    width: 250px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.photos__inner:hover{
+
 }

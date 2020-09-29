@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6,p{
     border-bottom: 2px solid transparent;
 }
 
- ul{
+ul{
     list-style-type: none;
     display: inline-flex;
 }
@@ -74,28 +74,4 @@ h1,h2,h3,h4,h5,h6,p{
 .nav__contacts{
     text-decoration: none;
     margin-left: 30px;
-}
-
-.container{
-    margin-top: 90px;
-}
-
-.photos{
-    padding-top: 30px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-.photos__inner{
-    height: 370px;
-    width: 250px;
-    margin: 2px;
-}
-
-.photos__inner:hover{
-
 }

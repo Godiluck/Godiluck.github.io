@@ -1,4 +1,5 @@
 html ,body{
+    font-weight: lighter;
     height: 100%;
 }
 body{
@@ -74,4 +75,60 @@ ul{
 .nav__contacts{
     text-decoration: none;
     margin-left: 30px;
+}
+
+.container{
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.photo{
+    display: flex;
+
+}
+
+.photo__inner{
+    display: inherit;
+    height: 500px;
+    width: auto;
+    margin-left: 130px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+}
+
+.text{
+    border-radius: 40px;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 250px;
+    margin-bottom: 60px;
+    display: flex;
+    background-color: white;
+
+}
+
+.text__inner{
+    margin-left: 25px;
+    margin-right: 40px;
+    font-weight: lighter;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.headline{
+    font-size: 25px;
+}
+
+.contacts{
+    margin-bottom: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }

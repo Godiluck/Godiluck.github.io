@@ -75,3 +75,15 @@ ul{
     text-decoration: none;
     margin-left: 30px;
 }
+
+.container{
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    margin-top: 140px;
+}
+
+.headline{
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}

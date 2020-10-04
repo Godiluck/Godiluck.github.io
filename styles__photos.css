@@ -87,3 +87,14 @@ ul{
     justify-content: center;
     font-family: 'Raleway', sans-serif;
 }
+
+.footer{
+    height: 20px;
+}
+
+.footer__text{
+    opacity: 0.5;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}

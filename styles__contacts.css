@@ -76,3 +76,40 @@ ul{
     text-decoration: none;
     margin-left: 30px;
 }
+
+.container{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 102px;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.price{
+    display: flex;
+    background-color: white;
+    margin-top: 40px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.price__headline{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+}
+
+.price__inner{
+    font-size: 25px;
+    margin-bottom: 15px;
+}

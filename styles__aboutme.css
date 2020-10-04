@@ -132,3 +132,16 @@ ul{
     flex-direction: column;
     text-decoration: none;
 }
+
+.footer{
+    background: linear-gradient(to right, #c31432, #240b36);
+    height: 20px;
+}
+
+.footer__text{
+    opacity: 0.5;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

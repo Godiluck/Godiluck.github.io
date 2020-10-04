@@ -100,3 +100,14 @@ h1,h2,h3,h4,h5,h6,p{
 .photos__inner:hover{
     transform: scale(1.2);
 }
+
+.footer{
+    height: 20px;
+}
+
+.footer__text{
+    opacity: 0.5;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}

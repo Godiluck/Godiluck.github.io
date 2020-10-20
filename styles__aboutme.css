@@ -104,7 +104,7 @@ ul{
     flex-direction: column;
     height: auto;
     width: 400px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 250px;
     margin-bottom: 60px;
     display: flex;
@@ -126,11 +126,16 @@ ul{
 }
 
 .contacts{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: black;
     display: flex;
     flex-direction: column;
     text-decoration: none;
+}
+
+.contacts:hover{
+    color: gold;
+    transition: 0.3s;
 }
 
 .footer{

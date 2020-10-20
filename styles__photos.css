@@ -77,15 +77,41 @@ ul{
 }
 
 .container{
+    flex-direction: column;
     justify-content: center;
     height: 100%;
     display: flex;
-    margin-top: 140px;
+    margin-top: 200px;
+}
+
+@media only screen and (max-width: 1030px){
+    .container{
+        margin-top: 140px;
+    }
 }
 
 .headline{
+    opacity: 0.75;
+    display: flex;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.albums{
+    padding-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.albums__inner{
+    border: 1px solid gray;
+    height: 370px;
+    width: 250px;
+    margin: 2px;
 }
 
 .footer{

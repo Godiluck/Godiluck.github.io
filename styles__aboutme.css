@@ -1,6 +1,8 @@
 html ,body{
     font-weight: lighter;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 body{
     margin: 0;
@@ -27,6 +29,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 @media only screen and (max-width: 1030px) {
     .header {
+        background: white;
         display: inline-flex;
         align-items: center;
         font-family: 'Raleway', sans-serif;

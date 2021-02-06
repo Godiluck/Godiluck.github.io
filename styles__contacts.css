@@ -81,20 +81,20 @@ ul{
     font-family: 'Raleway', sans-serif;
     margin-top: 102px;
     height: 100%;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-    background: linear-gradient(to right, #c31432, #240b36);
+    flex-direction: column;
+    padding: 0 15%;
+    align-items: center;
 }
 
 .price{
     display: flex;
     background-color: white;
-    margin-top: 40px;
     height: fit-content;
     width: fit-content;
     padding: 10px 20px;
     margin-left: 20px;
-    border-radius: 20px;
     flex-direction: column;
 }
 
@@ -117,13 +117,18 @@ ul{
 .extra{
     display: flex;
     background-color: white;
-    margin-top: 40px;
+    margin-top: 20px;
     height: fit-content;
     width: fit-content;
     padding: 10px 20px;
     margin-left: 20px;
-    border-radius: 20px;
     flex-direction: column;
+}
+
+.unity{
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .extra__headline{
@@ -133,18 +138,18 @@ ul{
 
 .extra__inner{
     font-size: 25px;
-    margin-bottom: 15px;
 }
 
 .footer{
-    background: linear-gradient(to right, #c31432, #240b36);
+    padding-top: 15px;
+    width: 100%;
+    bottom: 0;
     height: 20px;
 }
 
 .footer__text{
     opacity: 0.5;
     font-size: 12px;
-    color: white;
     display: flex;
     justify-content: center;
 }

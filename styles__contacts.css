@@ -99,6 +99,7 @@ ul{
 }
 
 .price__headline{
+    text-align: center;
     font-weight: lighter;
     font-size: 30px;
 }
@@ -132,6 +133,7 @@ ul{
 }
 
 .extra__headline{
+    text-align: center;
     font-weight: lighter;
     font-size: 30px;
 }
